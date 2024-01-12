@@ -335,7 +335,6 @@ margin-top: 20px;
     margin-top: 50px;
     margin-left: 1px;
     max-width: 250px;
-
 }
 .header .txt17{
     padding: 20px;
@@ -410,8 +409,8 @@ margin-top: 20px;
   .txt22{
     background-color:#0000FF;
     color: white;
-    width: 80%;
-  padding: 0.8rem 0;
+    width: 82%;
+  padding: 0.7rem 0;
    margin-top: 13px;
    border-radius: 12px;
    display: block;
@@ -428,3 +427,63 @@ margin-top: 20px;
  margin-left: 20px;
  
 }
+
+.header p{
+    border-bottom: 1px solid;
+    color:#D6D6D6;
+    width: 200px;
+    margin-top: 10px;
+    height: 1px;
+    margin-left:20px ;
+}
+
+.txt23{
+    color: white;
+    font-size: 15px;
+}
+
+.header a{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.txt24{
+    
+margin-top: 20px;
+margin-bottom: 30px;
+color: #0000FF;
+font-size: 13px;
+}
+
+a i{
+    color: #0000FF;
+    margin-left: 2px;
+}
+
+.lastdiv{
+    display: flex;
+    margin-top: 30px;
+}
+
+.vl {
+    border-left: 3px solid #0000FF;
+    height: 100px;
+  }
+
+.txt25{
+    font-size: 16px;
+    color: #808080;
+    margin-left: 20px;
+}
+
+.txt26{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.txt27{
+     margin-top: 10px;
+        color: #0000FF;
+        font-size: 13px;
+        }
