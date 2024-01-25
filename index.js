@@ -32,12 +32,12 @@ function drawChart() {
   ];
 
   var options = {
-    width: 750,
-    height: 250,
+    width: "48.82vw",
+    height: "16.27vw",
     legend: {
       position: "top",
       maxLines: 1,
-      textStyle: { fontSize: 12, color: "grey" },
+      textStyle: { fontSize: "0.78vw", color: "grey" },
     },
     bar: { groupWidth: "40%" },
     vAxis: { format: "currency" },
@@ -76,12 +76,12 @@ function drawChart1() {
   ];
 
   var options = {
-    width: 500,
-    height: 250,
+    width: "15vw",
+    height: "15vw",
     legend: {
       position: "top",
       maxLines: 1,
-      textStyle: { fontSize: 12, color: "grey" },
+      textStyle: { fontSize: "0.78vw", color: "grey" },
     },
     bar: { groupWidth: "20%" },
     vAxis: { format: "currency" },
@@ -95,8 +95,13 @@ function drawChart1() {
   );
   chart.draw(data, options);
 }
+
 $(window).resize(function () {
   drawChart1();
+});
+
+$(window).resize(function () {
+  drawChart();
 });
 
 /********************************************************** */
