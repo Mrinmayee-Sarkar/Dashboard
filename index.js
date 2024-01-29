@@ -1,9 +1,9 @@
 google.charts.load("current", { packages: ["corechart"] });
 
-google.charts.setOnLoadCallback(drawChart);
+google.charts.setOnLoadCallback(drawChart1);
 
-function drawChart() {
-  var data = google.visualization.arrayToDataTable([
+function drawChart1() {
+  let data1 = google.visualization.arrayToDataTable([
     [
       "Genre",
       "Employer: K73,500",
@@ -25,13 +25,13 @@ function drawChart() {
     ["65", 90, 95, 115],
   ]);
 
-  var colors = [
+  let colors1 = [
     { color: "#00008B" },
     { color: "#0437F2" },
     { color: "#87CEEB" },
   ];
 
-  var options = {
+  let options1 = {
     width: "48.82vw",
     height: "16.27vw",
     legend: {
@@ -43,22 +43,22 @@ function drawChart() {
     vAxis: { format: "currency" },
     vAxis: { gridlines: { count: 3 } },
     isStacked: true,
-    series: colors,
+    series: colors1,
   };
 
-  var chart = new google.visualization.ColumnChart(
-    document.getElementById("chart_div")
+  let chart1 = new google.visualization.ColumnChart(
+    document.getElementById("chart_div1")
   );
-  chart.draw(data, options);
+  chart1.draw(data1, options1);
 }
 
 /************************************************************************* */
 google.charts.load("current", { packages: ["corechart"] });
 
-google.charts.setOnLoadCallback(drawChart1);
+google.charts.setOnLoadCallback(drawChart2);
 
-function drawChart1() {
-  var data = google.visualization.arrayToDataTable([
+function drawChart2() {
+  let data2 = google.visualization.arrayToDataTable([
     ["Genre", "Employer", "Employee", "Total Interest"],
     ["20", 20, 20, 30],
     ["25", 30, 30, 40],
@@ -69,13 +69,13 @@ function drawChart1() {
     ["65", 90, 95, 115],
   ]);
 
-  var colors = [
+  let colors2 = [
     { color: "#00008B" },
     { color: "#0437F2" },
     { color: "#87CEEB" },
   ];
 
-  var options = {
+  let options2 = {
     width: "15vw",
     height: "15vw",
     legend: {
@@ -87,13 +87,13 @@ function drawChart1() {
     vAxis: { format: "currency" },
     vAxis: { gridlines: { count: 3 } },
     isStacked: true,
-    series: colors,
+    series: colors2,
   };
 
-  var chart = new google.visualization.ColumnChart(
-    document.getElementById("chart_div1")
+  let chart2 = new google.visualization.ColumnChart(
+    document.getElementById("chart_div2")
   );
-  chart.draw(data, options);
+  chart2.draw(data2, options2);
 }
 
 $(window).resize(function () {
@@ -101,22 +101,22 @@ $(window).resize(function () {
 });
 
 $(window).resize(function () {
-  drawChart();
+  drawChart2();
 });
 
 /********************************************************** */
 
 document.addEventListener("DOMContentLoaded", function () {
-  var range = document.getElementById("myRange");
-  var demo = document.getElementById("demo");
+  let range = document.getElementById("myRange");
+  let demo = document.getElementById("demo");
   range.addEventListener("input", function () {
     demo.textContent = range.value;
   });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var range1 = document.getElementById("myRange1");
-  var demo1 = document.getElementById("demo1");
+  let range1 = document.getElementById("myRange1");
+  let demo1 = document.getElementById("demo1");
   range1.addEventListener("input", function () {
     demo1.textContent = range1.value;
   });

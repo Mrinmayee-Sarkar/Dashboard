@@ -137,7 +137,7 @@ main aside .sidemenu a i:hover {
 }
 
 .txt2 {
-  font-size: 0.65vw;
+  font-size: 0.80vw;
   color: #808080;
   margin-top: 0.32vw;
 }
@@ -161,13 +161,13 @@ main aside .sidemenu a i:hover {
 }
 
 .wd {
-  font-size: 0.65vw;
+  font-size: 0.85vw;
   font-weight: bold;
   margin-top: 0.32vw;
 }
 
 .date {
-  font-size: 0.65vw;
+  font-size: 0.70vw;
   color: #808080;
   margin-top: 0.65vw;
 }
@@ -195,7 +195,7 @@ main aside .sidemenu a i:hover {
 }
 
 #header1 {
-  margin-left: 4.5vw;
+  margin-left: 7vw;
   margin-top: 3.25vw;
   max-width: 42.31vw;
 }
@@ -211,27 +211,30 @@ main aside .sidemenu a i:hover {
 .amt {
   display: flex;
   margin-top: 1.95vw;
+  
 }
 
 .txt3 {
-  font-size: 1.30vw;
+  font-size: 1.80vw;
 }
 
 .figure {
-  font-size: 1.30vw;
+  font-size: 1.80vw;
   margin-left: 1.95vw;
 }
 
 .contribution {
   margin-top: 3.25vw;
-  margin-left: 4.5vw;
+  margin-left: 7vw;
   width: 42.31vw;
 }
-#chart_div {
+#chart_div1 {
   width: 42.31vw;
+  margin-left: 2vw;
+  margin-top: 1vw;
 }
 
-#chart_div1 {
+#chart_div2 {
   display: none;
 }
 #footer {
@@ -266,6 +269,7 @@ main aside .sidemenu a i:hover {
 
 .circle-container .circle {
   margin-left: 0.065vw;
+  margin-top: 1.5vw;
 }
 
 .circle.percentage-95 .percentage-bar:after,
@@ -780,10 +784,10 @@ a i {
     width: 60vw;
   }
 
-  #chart_div {
+  #chart_div1 {
     display: none;
   }
-  #chart_div1 {
+  #chart_div2 {
     display: block;
     margin-left: 1.95vw;
     margin-top: 5vw;
